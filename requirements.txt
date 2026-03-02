@@ -1,0 +1,6 @@
+qiskit>=1.0
+qiskit-ibm-runtime
+numpy
+scipy
+matplotlib
+streamlit  # for future demos

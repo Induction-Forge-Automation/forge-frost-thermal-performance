@@ -1,21 +1,20 @@
-# ForgeFrost Thermal Performance (example for Repo 2)
+# ForgeFrost Thermal Performance Simulator
 
-Quantum-optimized thermal simulation for Induction Forge Automation's ForgeFrost Mini.
+Quantum-optimized pipe freeze-protection simulation for ForgeFrost Mini.
 
-Built by Joshua Stoneman – US Navy vet, Loxone Silver Partner, smart home automation specialist.
+Built by Joshua Stoneman – US Navy vet, Loxone Silver Partner, ForgeFrost inventor.
+EIN: 41-2902809 | INDUCTION FORGE AUTOMATION LLC | Veteran-Owned
 
-## What This Does
-Simulates pipe freeze protection + mini-split efficiency under real Wisconsin winters using IBM Qiskit.
+## Features
+- Classical transient heat equation simulation
+- IBM Quantum integration (simulator + hardware access)
+- Energy savings estimation (30–40% target)
+- Matplotlib visualization
 
-## Quick Start (No Coding Needed Soon)
-- Coming: Web demo (upload pipe length/temp → get savings estimate)
-- For now: View notebooks in browser (click .ipynb files)
+## How to Run
+1. Clone repo: `git clone https://github.com/Induction-Forge-Automation/forge-frost-thermal-performance.git`
+2. Create venv & install deps: `python -m venv env && source env/bin/activate && pip install -r requirements.txt`
+3. Run notebook in VS Code or Jupyter
+4. Customize params in `simulate_classical()` with your prototype data
 
-## Why Quantum?
-Better optimization than classical tools → 10-30% potential energy savings for your luxury home.
-
-## Business Tie-In
-Part of Induction Forge Automation LLC (EIN 41-2902809).  
-Use for quotes/installs → contact jstoneman@inductforge.com
-
-License: MIT (free to view/use insights)
+Contact: jstoneman@inductforge.com | 608-217-9466

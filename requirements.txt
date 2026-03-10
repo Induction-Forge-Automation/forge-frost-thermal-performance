@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 qiskit>=1.2.0
 qiskit-ibm-runtime>=0.29.0  # For real hardware access
 numpy>=1.26.0
@@ -5,3 +6,11 @@ scipy>=1.13.0
 matplotlib>=3.8.0
 jupyter>=1.0.0  # For notebooks
 streamlit>=1.30.0  # Future web demos
+=======
+qiskit>=1.0
+qiskit-ibm-runtime
+numpy
+scipy
+matplotlib
+streamlit  # for future demos
+>>>>>>> b90fd0fc6d365cf54b86d3cf010df64f34cbdd57

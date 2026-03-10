@@ -1,0 +1,7 @@
+qiskit>=1.2.0
+qiskit-ibm-runtime>=0.29.0  # For real hardware access
+numpy>=1.26.0
+scipy>=1.13.0
+matplotlib>=3.8.0
+jupyter>=1.0.0  # For notebooks
+streamlit>=1.30.0  # Future web demos

@@ -11,6 +11,8 @@ EIN: 41-2902809 | INDUCTION FORGE AUTOMATION LLC | Veteran-Owned
 - Energy savings estimation (30–40% target)
 - Matplotlib visualization
 
+<image-card alt="ForgeFrost Mini Pipe Thermal Simulation – Wisconsin Winter" src="plot_wisconsin_winter.png" ></image-card>
+
 ## How to Run
 1. Clone repo: `git clone https://github.com/Induction-Forge-Automation/forge-frost-thermal-performance.git`
 2. Create venv & install deps: `python -m venv env && source env/bin/activate && pip install -r requirements.txt`
